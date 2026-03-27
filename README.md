@@ -33,7 +33,15 @@ Credit card fraud is a major issue in financial systems. Due to the rarity of fr
    pip install -r requirements.txt  
 3. Open and run the notebook  
 ## Dataset
-The dataset used is a publicly available credit card transaction dataset.  
+The dataset used is a publicly available credit card transaction dataset.
+(Dataset not included due to size/privacy. Can be downloaded from public sources.) 
+## Outputs
+### Class Distribution
+![Class Distribution](outputs/class_distribution.png)
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+### ROC Curve
+![ROC Curve](outputs/roc_curve.png)
 ## Future Improvements
 - Apply advanced techniques like SMOTE for better imbalance handling  
 - Try other models like XGBoost or Neural Networks  
